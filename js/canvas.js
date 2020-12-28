@@ -78,7 +78,7 @@ function Canvas() {
 
   var bottomPadding = 70;
   var extent = [0, 0];
-  var bottomZooming = true;
+  var bottomZooming = false;
 
   var touchstart = 0;
   var vizContainer;
@@ -868,7 +868,7 @@ function Canvas() {
       var size = Math.max(texture.width, texture.height);
       sprite.scale.x = sprite.scale.y = (imageSize3 / size) * d.scaleFactor;
       sleep = false;
-      if(t.valid){
+      if (t.valid) {
         d.alpha = 0;
         d.alpha2 = 0;
       }
