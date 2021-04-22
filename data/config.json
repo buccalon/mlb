@@ -39,7 +39,7 @@
     "searchbarBackground": "#51706e"
   },
   "projection": {
-    "columns": 1
+    "columns": 2
   },
   "detail": {
     "structure": [
